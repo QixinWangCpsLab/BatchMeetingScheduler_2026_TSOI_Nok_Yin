@@ -1,0 +1,8 @@
+.git/
+.env
+
+src/web/conn/
+src/web/vendor/
+src/web/nbproject/
+src/web/sendmail.php
+src/web/sendresultmail.php

@@ -1,0 +1,22 @@
+# local env, keep env example for reference
+.env
+.env.*
+!.env.example
+
+# DB connection and email config from legacy system
+/src/web/conn/
+/src/web/sendmail.php
+/src/web/sendresultmail.php
+
+# Composer dependencies which will be installed via composer.lock
+/src/web/vendor/
+
+# IDE setting
+/src/web/nbproject/
+.vscode/
+.idea/
+
+# system logs
+.DS_Store
+Thumbs.db
+*.log
